@@ -50,7 +50,7 @@ const Navbar = () => {
           <Link to="/login">
             <Button 
               variant="outline" 
-              className="border-gold-400 text-gold-400 hover:bg-gold-400 hover:text-platinum-900"
+              className="border-gold-400 text-gold-400 bg-transparent hover:bg-gold-400 hover:text-platinum-900"
             >
               Client Login
             </Button>
@@ -106,3 +106,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
